@@ -2,7 +2,7 @@
 
 Homebrew formula for Erlang Version Manager (EVM)
 
-## Usage
+## Usage
 
 Add the Brew tap:
 
