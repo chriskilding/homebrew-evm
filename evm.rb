@@ -1,4 +1,4 @@
-class EVM < Formula
+class Evm < Formula
   desc "Erlang Version Manager"
   homepage "https://github.com/robisonsantos/evm"
 
