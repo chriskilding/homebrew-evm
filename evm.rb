@@ -7,7 +7,7 @@ class Evm < Formula
   depends_on "wget"
   
   def install
-    system "./install"
+    zsh_function.install "evm"
   end
 
   test do
