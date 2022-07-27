@@ -23,7 +23,6 @@ class Evm < Formula
     $HOME/.evm/erlang_tars
     $HOME/.evm/erlang_versions
     $HOME/.evm/evm_config
-    $HOME/.evm/scripts
     EOS
   end
 end
