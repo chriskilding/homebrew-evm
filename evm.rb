@@ -17,7 +17,13 @@ class Evm < Formula
   
   def caveats; <<-EOS
     For EVM to function, add the following to your #{shell_profile}:
-    source /usr/local/share/#{shell}/site-functions/evm
+    source /usr/local/share/zsh/site-functions/evm
+
+    Please also create the following folders:
+    $HOME/.evm/erlang_tars
+    $HOME/.evm/erlang_versions
+    $HOME/.evm/evm_config
+    $HOME/.evm/scripts
     EOS
   end
 end
