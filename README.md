@@ -1,6 +1,6 @@
 # homebrew-evm
 
-Homebrew formula for Erlang Version Manager (EVM)
+Homebrew formula for [Erlang Version Manager](https://github.com/robisonsantos/evm) (EVM)
 
 ## Usage
 
