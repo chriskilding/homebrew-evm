@@ -14,6 +14,10 @@ class Evm < Formula
   test do
     system "evm", "version"
   end
+
+  def source_shell_functions
+    ["/usr/local/share/zsh/site-functions/evm"]
+  end
   
   def caveats; <<-EOS
     For EVM to function, please follow these steps:
