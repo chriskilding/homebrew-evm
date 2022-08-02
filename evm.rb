@@ -15,8 +15,8 @@ class Evm < Formula
     system "evm", "version"
   end
 
-  def source_shell_functions
-    ["/usr/local/share/zsh/site-functions/evm"]
+  shell do
+    source "/usr/local/share/zsh/site-functions/evm"
   end
   
   def caveats; <<-EOS
