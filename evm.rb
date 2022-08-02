@@ -16,6 +16,8 @@ class Evm < Formula
   end
 
   shell do
+    puts "this is the shell profile config"
+    
     source "/usr/local/share/zsh/site-functions/evm"
   end
   
